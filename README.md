@@ -2,6 +2,8 @@
 
 > A node for introducing a fixed-value signal in your audio graph
 
+[![Install with NPM](https://nodei.co/npm/openmusic-dcbias.png?downloads=true&stars=true)](https://nodei.co/npm/openmusic-dcbias/)
+
 You can use it for things such as: 
 
 * shifting the signal upwards/downwards when connected to a gain node (the demo)
