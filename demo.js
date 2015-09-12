@@ -28,4 +28,5 @@ function updateBias() {
 }
 
 updateBias();
+dcbias.start();
 osc.start();
