@@ -24,10 +24,9 @@
     "url": "https://github.com/openmusic/dcbias/issues"
   },
   "homepage": "https://github.com/openmusic/dcbias",
-  "dependencies": {
-    "openmusic-oscilloscope": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "openmusic-oscilloscope": "^1.0.0",
     "semantic-release": "^4.3.4"
   }
 }
