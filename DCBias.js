@@ -4,6 +4,8 @@
 		
 		var output = context.createGain();
 		var buffer = context.createBuffer(1, 1, context.sampleRate);
+		var bufferSource = null;
+
 		buffer.getChannelData(0)[0] = 1.0;
 
 		output.start = function(when) {
@@ -15,8 +17,11 @@
 		};
 
 		output.stop = function(when) {
-			bufferSource.stop(when);
-			bufferSource.disconnect();
+			if(bufferSource !== null) {
+				bufferSource.stop(when);
+				bufferSource.disconnect();
+			}
+			bufferSource = null;
 		};
 		
 		return output;
@@ -32,3 +37,4 @@
 	}
 
 }).call(this);
+
