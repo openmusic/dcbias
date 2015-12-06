@@ -1,10 +1,10 @@
 {
   "name": "openmusic-dcbias",
+  "version": "1.2.0",
   "description": "A DCBias node for introducing a fixed-value signal in your audio graph",
   "main": "DCBias.js",
   "scripts": {
-    "test": "echo \"Tests still not implemented\" && exit 0",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "echo \"Tests still not implemented\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,6 @@
   "homepage": "https://github.com/openmusic/dcbias",
   "dependencies": {},
   "devDependencies": {
-    "openmusic-oscilloscope": "^1.0.0",
-    "semantic-release": "^4.3.4"
+    "openmusic-oscilloscope": "^1.0.0"
   }
 }
