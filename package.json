@@ -4,7 +4,7 @@
   "description": "A DCBias node for introducing a fixed-value signal in your audio graph",
   "main": "DCBias.js",
   "scripts": {
-    "test": "echo \"Tests still not implemented\" && exit 0",
+    "test": "echo \"Tests still not implemented\" && exit 0"
   },
   "repository": {
     "type": "git",
